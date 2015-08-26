@@ -18,7 +18,7 @@
 &lt;#name#&gt;.layer.cornerRadius = 2
 &lt;#name#&gt;.clipsToBounds = true
 &lt;#superview#&gt;.addSubview(&lt;#name#&gt;)
-hehe.mas_makeConstraints{ make in
+&lt;#name#&gt;.mas_makeConstraints{ make in
     
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -28,10 +28,10 @@ hehe.mas_makeConstraints{ make in
 	<key>IDECodeSnippetPlatformFamily</key>
 	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create UILabel Swift</string>
+	<string>Create Label Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

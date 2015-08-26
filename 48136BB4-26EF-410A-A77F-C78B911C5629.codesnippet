@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aaa</string>
+	<string>ppp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>[[NSNotificationCenter defaultCenter] postNotificationName:&lt;#name#&gt; object:&lt;#object#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F2C85FF7-3E41-4FBC-98FC-6F679703A367</string>
+	<string>48136BB4-26EF-410A-A77F-C78B911C5629</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Assign Property</string>
+	<string>Post Observer</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ttt</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>TopLevel</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>extension &lt;#class#&gt; : UITableViewDelegate {
+    
+    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+        
+    }
+    
+    
+    func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -&gt; CGFloat {
+        return 0
+    }
+    
+    
+    func tableView(tableView: UITableView, viewForHeaderInSection section: Int) -&gt; UIView? {
+        return nil
+    }
+    
+    
+    func tableView(tableView: UITableView, heightForHeaderInSection section: Int) -&gt; CGFloat {
+        return 0.01
+    }
+    
+}
+
+
+extension &lt;#class#&gt; : UITableViewDataSource {
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -&gt; Int {
+        return 1
+    }
+    
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -&gt; Int {
+        return 0
+    }
+    
+    
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -&gt; UITableViewCell {
+        return UITableViewCell()
+    }
+    
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>87FE0533-1AF0-4B1E-A531-2D1220F6931C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Create TableView in Swift</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

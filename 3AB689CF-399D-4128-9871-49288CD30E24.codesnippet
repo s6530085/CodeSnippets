@@ -3,19 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>aaa</string>
+	<string>ttt</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#name#&gt;;</string>
+	<string>[&lt;#object#&gt; addTarget:&lt;#target#&gt; action:@selector(&lt;#selector#&gt;) forControlEvents:&lt;#event#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F2C85FF7-3E41-4FBC-98FC-6F679703A367</string>
+	<string>3AB689CF-399D-4128-9871-49288CD30E24</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Add Assign Property</string>
+	<string>Add Target</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

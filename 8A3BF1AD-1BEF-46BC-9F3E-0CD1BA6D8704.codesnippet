@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>cl</string>
+	<string>clp</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
@@ -11,16 +11,21 @@
 	<key>IDECodeSnippetContents</key>
 	<string>UILabel *&lt;#name#&gt; = [UILabel new];
 &lt;#name#&gt;.text = @"";
-&lt;#name#&gt;.textAlignment = NSTextAlignmentLeft;
-&lt;#name#&gt;.textColor = </string>
+label.textAlignment = NSTextAlignmentLeft;
+&lt;#name#&gt;.textColor = [UIColor whiteColor];
+&lt;#name#&gt;.font = [GPJAppearance &lt;#font#&gt;];
+&lt;#name#&gt;.backgroundColor = [GPJAppearance &lt;#color#&gt;];
+&lt;#name#&gt;.layer.cornerRadius = &lt;#corner#&gt;;
+[c addSubview:&lt;#name#&gt;];
+[&lt;#name#&gt; mas_makeConstraints:(MASConstraintMaker *make) {
+    
+}];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>0EFB710F-21CB-4A22-899D-6BC6C40AC7B5</string>
+	<string>8A3BF1AD-1BEF-46BC-9F3E-0CD1BA6D8704</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
-	<key>IDECodeSnippetPlatformFamily</key>
-	<string>iphoneos</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Create Label Objective-C</string>
+	<string>Create Label in Price</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
